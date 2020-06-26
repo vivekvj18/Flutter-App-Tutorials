@@ -45,11 +45,24 @@ class Homepage extends StatelessWidget {
                 width: 100,
                 height: 100,
                 decoration: BoxDecoration(color: Colors.red,shape: BoxShape.circle),
-              )
-            ],
+                
+              ),
+              Container(
+                alignment: Alignment.center,
+                child: Text("WELCOME",style: TextStyle (color: Colors.black,fontWeight: FontWeight.w900,fontSize: 70),),
+                width: 900,
+                decoration: BoxDecoration(
+                  color: Colors.red,borderRadius: BorderRadius.circular(10),gradient: LinearGradient(colors: [Colors.red,Colors.yellow,Colors.blueAccent,Colors.green]),
+                ),
+                ),
+  ]
+        )
+
+
+
           ),
         ),
-      ),
+
     );
   }
 }
